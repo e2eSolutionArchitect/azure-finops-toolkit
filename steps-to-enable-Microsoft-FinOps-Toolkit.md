@@ -78,6 +78,21 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - Please download *.pbix report files from the latest release. [click here](https://github.com/microsoft/finops-toolkit/tags) to download report templates. 
 
 ### Connect Data source to Azure storage
+- Open a template file (*.pbix) in PowerBI desktop.
+- e.g., Open 'CostSummary.pbix'
+- Click on 'Transform Data' option under Home tab
+- Select 'Edit parameters'. It will open a popup box for data source settings.
+- Edit Parameters settings as follows
+- - Hub Storage URL: < Enter the 'Data Lake url' from storage container >
+  - Export Storage URL: < Enter the 'Data Lake url' from storage container >
+  - Range Start: < e.g., 2010-01-01 12:00 AM>
+  - Range End: < e.g., 2050-01-01 12:00 AM>
+  - Number of Months: keep blank
+  - Click Ok
+- Click "Apply Changes"
+- It will start pulling data from the actual storage account.
+- A popup might show for login. Log-in with the same azure portal user the developer has the required roles.
+- Fetching data can take around 5-10 or more depending on the amount of data.
 
 ### Run report using PowerBi desktop 
 
