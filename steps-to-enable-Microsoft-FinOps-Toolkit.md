@@ -12,13 +12,22 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Roles and Permissions for Azure cloud user
 
+### Deploy FinOps Hub
+
 ### Setup Cost Export
 - Login to Azure Portal > Cost Export > Report + Analytics > Export 
 - Select 'Scope' to your 'Billing account'. The user should have access to billing account.
 - Currently, Cost & Usage (FOCUS) data is not available for the Management Group Scope. It is not available for subscription level. That's why you can either create for any specific subscription. Or I would recommend to set the Scope to Billing Account as we should get complete cost data of the organization.
-- After selecting scope to your Billing Account , the screen should list all the existing export under the tenant. Or it might show none if it is the first time you are creating export. 
+- After selecting scope to your Billing Account, the screen should list all the existing export under the tenant. Or it might show none if it is the first time you are creating export. 
 - Click 'Create' the '+' icon to create an export.
-- 
+- Select 'Cost and usage (FOCUS)' template. Yes. it must be FOCUS template
+- Enter a prefix . e.g 'daily'. So it will be 'daily-focus-cost'. you can edit it as per your choice for naming.
+- Bring your cursor over the '*-focus-cost' hyperlink. and click the edit pencil.
+- A popup will open for the export settings.
+- Update the frequency as per your choice.
+- Frequency - Daily export will run daily, Monthly export will run at the end of the month, One time export will run only once and it will create cost data till date.
+- Now 'Save' and click 'Next' for 'Destination' settings.
+- You must have deployed 'FinOps hub' already . If not, please check the previous section  'Deploy FinOps Hub'.
 
 ### Install PowerBI desktop
 
