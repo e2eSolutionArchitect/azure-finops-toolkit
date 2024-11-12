@@ -95,6 +95,9 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - Fetching data can take around 5-10 or more depending on the amount of data.
 
 ### Run report using PowerBi desktop 
+- After successfully completing the data source change and 'Apply change'. The report should show the actual data.
+- Click refresh to refresh data or change the filter to see the data on the report.
+- After this step, the report is ready to Publish
 
 ### Publish reports
 - Sign in to https://app.powerbi.com/
