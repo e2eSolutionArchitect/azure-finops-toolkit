@@ -30,11 +30,10 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - You must have deployed 'FinOps hub' already. If not, please check the previous section  'Deploy FinOps Hub'.
 - The 'FinOps Hub' deployment will create the storage account which we have to select under 'Destination' setting.
 - Destination settings as follows
-- 
 - - Storage Type: Azure Blob Storage
   - Destination and Storage: Use Existing
-  - Subscription: <Select the subscription which has been used for FinOps Hub deployment>
-  - Storage Account: <Select storage account which is created by FinOps Hub deployment. the name starts with 'finopshub...'>
+  - Subscription: < 'Select the subscription which has been used for FinOps Hub deployment' >
+  - Storage Account: < Select storage account which is created by FinOps Hub deployment. the name starts with 'finopshub...'>
   - Container: msexports
   - Directory: providers/billingaccount/cscmonthly
   - Format: CSV
