@@ -30,4 +30,5 @@ NOTE: The below steps are as per my personal guidance to get started super quick
   - Enter workspace name. e.g., Corp-Az-CloudCostMgmt-ws
   - Optional: Leave this field or select the appropriate domain as per your Organization's requirement.  
   - Optional: Expand 'Advance' section and add users under 'Contact list' field. Your user will be added by default.
-  -  
+  -  Click 'Apply' to create the workspace.
+  -  NOTE: You might get permission issue "App workspace creation is disabled". In this case you can contact your Tenant admin / org support team for adding permission via PowerBI admin portal. They will provide you access via powerbi Admin Portal > Workspaces > Tenent Settings > Enable create workspace settings > Apply to 'The entire organization' > click 'Apply' 
