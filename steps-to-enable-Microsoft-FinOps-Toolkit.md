@@ -23,6 +23,12 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 ## NOTE: 'FOCUS' stands for FinOps Open Cost and Usage Specification
 
 ### Deploy FinOps Hub
+- [Click here](https://microsoft.github.io/finops-toolkit/hubs#-create-a-new-hub) to deploy FinOps Hub
+- Click on the 'Deploy to Azure' button
+- It will open the Azure portal
+- Select the resource group, which has been created in previous section.
+- Click deploy to start deployment
+- It will do all the required deployment for FinOps Hub.
 
 ### Setup Cost Export
 - Login to Azure Portal > Cost Export > Report + Analytics > Export 
