@@ -11,6 +11,10 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 ```
 
 ### Roles and Permissions for Azure cloud user
+    The PowerBI developer should have
+- Acces to the subscription where the 'FinOps Hub' will be deployed
+- 'Blob Reader' role in Azure portal to access storage account data in PowerBI desktop
+- 'Contributor' role for deploying 'FinOps Hub'. The deployment requires permissions to create resources like storage account, data factory, Reource group, etc
 
 ### Deploy FinOps Hub
 
