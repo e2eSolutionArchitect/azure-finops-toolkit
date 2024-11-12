@@ -44,6 +44,10 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - - Go back to Cost Export overview.
   - Click on the newly created export. It should open a popup with export details. verify details for correct config.
   - Check run history. If it has not ran yet, click 'Run now' to trigger the run.
+  - Browse to Storage account > select the storage account ('finopshub...').
+  - Browse to the container path. e.g., 'providers/billingaccounts/...'.
+  - After the export job is completed successfully, the csv file(s) should be available in the container.
+  - So far we have successfully created Cost export for finOps reporting.
 
 ### Install PowerBI desktop
 
