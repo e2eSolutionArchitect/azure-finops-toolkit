@@ -13,8 +13,12 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 ### Roles and Permissions for Azure cloud user
 
 ### Setup Cost Export
+- Login to Azure Portal > Cost Export > Report + Analytics > Export 
 - Select 'Scope' to your 'Billing account'. The user should have access to billing account.
-- Currently, Cost & Usage (FOCUS) data is not available for Management Group Scope. It is not available for subscription level. That's why you can either create for any specific subscription. Or I would recommend to set the Scope to Billing Account as we should get complete cost data of the organization. 
+- Currently, Cost & Usage (FOCUS) data is not available for the Management Group Scope. It is not available for subscription level. That's why you can either create for any specific subscription. Or I would recommend to set the Scope to Billing Account as we should get complete cost data of the organization.
+- After selecting scope to your Billing Account , the screen should list all the existing export under the tenant. Or it might show none if it is the first time you are creating export. 
+- Click 'Create' the '+' icon to create an export.
+- 
 
 ### Install PowerBI desktop
 
