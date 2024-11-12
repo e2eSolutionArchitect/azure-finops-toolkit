@@ -29,6 +29,8 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - Select the resource group, which has been created in previous section.
 - Click deploy to start deployment
 - It will do all the required deployment for FinOps Hub.
+- It takes around 5-8 mins to complete the deployment.
+- Verify: Once deployment is complete. go to the resource group and check the list of resources created.
 
 ### Setup Cost Export
 - Login to Azure Portal > Cost Export > Report + Analytics > Export 
