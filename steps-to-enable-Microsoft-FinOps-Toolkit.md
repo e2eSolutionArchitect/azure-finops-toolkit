@@ -20,7 +20,7 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Connect Data source to Azure storage
 
-### Run report in PowerBi desktop 
+### Run report using PowerBi desktop 
 
 ### Publish reports
 - Sign in to https://app.powerbi.com/
@@ -31,7 +31,7 @@ NOTE: The below steps are as per my personal guidance to get started super quick
   - Optional: Leave this field or select the appropriate domain as per your Organization's requirement.  
   - Optional: Expand 'Advance' section and add users under 'Contact list' field. Your user will be added by default.
   -  Click 'Apply' to create the workspace.
-  -  NOTE: You might get permission issue "App workspace creation is disabled". In that case you can contact your Tenant admin / org support team for adding permission via PowerBI admin portal. They will provide you access via powerbi Admin Portal > Workspaces > Tenent Settings > Enable create workspace settings > Apply to 'The entire organization' > click 'Apply'
+  -  NOTE: You might get permission issue "App workspace creation is disabled". In that case you can contact your Tenant admin / org support team for adding permission via PowerBI admin portal. They will provide you access via PowerBI Admin Portal > Workspaces > Tenent Settings > Enable create workspace settings > Apply to 'The entire organization' > click 'Apply'
 - Publish report
 - - It is assumed that you have your powerbi report well executed using PowerBI desktop and ready to publish.
   - Open the report using PowerBI desktop and under 'Home', top right (left of CoPilot icon) find 'Publish'.
