@@ -26,15 +26,16 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - [Click here](https://microsoft.github.io/finops-toolkit/hubs#-create-a-new-hub) to deploy FinOps Hub
 - Click on the 'Deploy to Azure' button
 - It will open the Azure portal
-- Select the resource group, which has been created in previous section.
+- Select the resource group, which has been created in the previous section.
 - Click deploy to start deployment
 - It will do all the required deployment for FinOps Hub.
 - It takes around 5-8 mins to complete the deployment.
 - Verify: Once deployment is complete. go to the resource group and check the list of resources created.
+- Until 'FinOps Hub' is deployed successfully please don't proceed.  
 
 ### Setup Cost Export
 - Login to Azure Portal > Cost Export > Report + Analytics > Export 
-- Select 'Scope' to your 'Billing account'. The user should have access to billing account.
+- Select 'Scope' to your 'Billing account'. The user should have access to the billing account.
 - Currently, Cost & Usage (FOCUS) data is not available for the Management Group Scope. It is not available for subscription level. That's why you can either create for any specific subscription. Or I would recommend to set the Scope to Billing Account as we should get complete cost data of the organization.
 - After selecting scope to your Billing Account, the screen should list all the existing export under the tenant. Or it might show none if it is the first time you are creating export. 
 - Click 'Create' the '+' icon to create an export.
