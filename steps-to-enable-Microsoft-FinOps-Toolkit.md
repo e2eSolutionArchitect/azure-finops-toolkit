@@ -1,5 +1,6 @@
 
 # What is Microsoft FinOps Toolkit?
+Please read [Kick start document](https://microsoft.github.io/finops-toolkit/)
 
 # Why should we use?
 
@@ -8,5 +9,14 @@
 ```
 NOTE: The below steps are as per my personal guidance to get started super quickly. You are always recommended to refer Microsoft documentation for the FinOps Toolkit for detail info. 
 ```
-- Please read [Kick start](https://microsoft.github.io/finops-toolkit/)
+
+### Roles and Permissions for Azure cloud user
+
+### Setup Cost Export
+
+### Install PowerBI desktop
+
+### Download report files
+
+### Publish report
 - 
