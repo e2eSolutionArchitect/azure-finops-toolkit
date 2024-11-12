@@ -22,7 +22,7 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Run report in PowerBi desktop 
 
-### Publish report
+### Publish using report
 - Sign in to https://app.powerbi.com/
 - Create an 'Workspace'
 - - Left panel 'Workspaces' menu
