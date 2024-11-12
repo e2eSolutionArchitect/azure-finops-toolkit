@@ -12,9 +12,15 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Roles and Permissions for Azure cloud user
     The PowerBI developer should have
-- Acces to the subscription where the 'FinOps Hub' will be deployed
+- Access to the subscription where the 'FinOps Hub' will be deployed
 - 'Blob Reader' role in Azure portal to access storage account data in PowerBI desktop
-- 'Contributor' role for deploying 'FinOps Hub'. The deployment requires permissions to create resources like storage account, data factory, Reource group, etc
+- 'Contributor' role for deploying 'FinOps Hub'. The deployment requires permissions to create resources like storage account, data factory, Resource group, etc
+
+### Create a new Resource Group
+- Go to Resource group > Create > select the subcription where the FinOps Hub should be deployed.
+- Name the resource group. e.g., 'Org_FOCUS_Rg'
+
+## NOTE: 'FOCUS' stands for FinOps Open Cost and Usage Specification
 
 ### Deploy FinOps Hub
 
