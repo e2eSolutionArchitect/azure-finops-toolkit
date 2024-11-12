@@ -16,7 +16,18 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Install PowerBI desktop
 
-### Download report files
+### Download PowerBi (*.pbix) report files
+
+### Connect Data source to Azure storage
+
+### Run report in PowerBi desktop 
 
 ### Publish report
-- 
+- Sign in to https://app.powerbi.com/
+- Create an 'Workspace'
+- - Left panel 'Workspaces' menu
+  - Click 'New workspace' button
+  - Enter workspace name. e.g., Corp-Az-CloudCostMgmt-ws
+  - Optional: Leave this field or select the appropriate domain as per your Organization's requirement.  
+  - Optional: Expand 'Advance' section and add users under 'Contact list' field. Your user will be added by default.
+  -  
