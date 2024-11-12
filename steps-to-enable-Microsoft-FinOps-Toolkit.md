@@ -12,6 +12,7 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Roles and Permissions for Azure cloud user
     The PowerBI developer should have
+- Please check required list of roles [here](https://microsoft.github.io/finops-toolkit/hubs/template)
 - Access to the subscription where the 'FinOps Hub' will be deployed
 - 'Blob Reader' role in Azure portal to access storage account data in PowerBI desktop
 - 'Contributor' role for deploying 'FinOps Hub'. The deployment requires permissions to create resources like storage account, data factory, Resource group, etc
@@ -69,8 +70,12 @@ NOTE: The below steps are as per my personal guidance to get started super quick
   - So far we have successfully created Cost export for finOps reporting.
 
 ### Install PowerBI desktop
+- Sign in to https://app.powerbi.com/
+- Download PowerBI desktop (top right download icon)
+- Simply install in your developer machine
 
-### Download PowerBi (*.pbix) report files
+### Download PowerBi (*.pbix) report templates
+- Please download *.pbix report files from the latest release. [click here](https://github.com/microsoft/finops-toolkit/tags) to download report templates. 
 
 ### Connect Data source to Azure storage
 
