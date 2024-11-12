@@ -22,13 +22,20 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 
 ### Run report in PowerBi desktop 
 
-### Publish using report
+### Publish reports
 - Sign in to https://app.powerbi.com/
 - Create an 'Workspace'
-- - Left panel 'Workspaces' menu
+  - Left panel 'Workspaces' menu
   - Click 'New workspace' button
   - Enter workspace name. e.g., Corp-Az-CloudCostMgmt-ws
   - Optional: Leave this field or select the appropriate domain as per your Organization's requirement.  
   - Optional: Expand 'Advance' section and add users under 'Contact list' field. Your user will be added by default.
   -  Click 'Apply' to create the workspace.
-  -  NOTE: You might get permission issue "App workspace creation is disabled". In this case you can contact your Tenant admin / org support team for adding permission via PowerBI admin portal. They will provide you access via powerbi Admin Portal > Workspaces > Tenent Settings > Enable create workspace settings > Apply to 'The entire organization' > click 'Apply' 
+  -  NOTE: You might get permission issue "App workspace creation is disabled". In that case you can contact your Tenant admin / org support team for adding permission via PowerBI admin portal. They will provide you access via powerbi Admin Portal > Workspaces > Tenent Settings > Enable create workspace settings > Apply to 'The entire organization' > click 'Apply'
+- Publish report
+- - It is assumed that you have your powerbi report well executed using PowerBI desktop and ready to publish.
+  - Open the report using PowerBI desktop and under 'Home', top right (left of CoPilot icon) find 'Publish'.
+  - Click 'Publish'.
+  - Select the 'workspace' where the report should be published.
+  - Click 'Publish'.
+  - Click the published link. It should open the web link and show the same report. 
