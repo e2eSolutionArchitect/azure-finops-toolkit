@@ -13,6 +13,8 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 ### Roles and Permissions for Azure cloud user
 
 ### Setup Cost Export
+- Select 'Scope' to your 'Billing account'. The user should have access to billing account.
+- Currently, Cost & Usage (FOCUS) data is not available for Management Group Scope. It is not available for subscription level. That's why you can either create for any specific subscription. Or I would recommend to set the Scope to Billing Account as we should get complete cost data of the organization. 
 
 ### Install PowerBI desktop
 
