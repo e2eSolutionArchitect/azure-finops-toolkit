@@ -75,7 +75,13 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - Simply install in your developer machine
 
 ### Download PowerBi (*.pbix) report templates
-- Please download *.pbix report files from the latest release. [click here](https://github.com/microsoft/finops-toolkit/tags) to download report templates. 
+- Please download *.pbix report files from the latest release. [click here](https://github.com/microsoft/finops-toolkit/tags) to download report templates.
+- Currently for v0.7 release the report templates are categorized and available as follows.
+  - PowerBI-storage.zip for templates that connect to storage (with or without FinOps hubs)
+  - PowerBI-kql.zip for templates that connect to FinOps hubs with Data Explorer
+  - PowerBI-demo.zip for reports with sample data
+
+To follow the on-going instruction please use the templates from "PowerBI-storage.zip"
 
 ### Connect Data source to Azure storage
 - Open a template file (*.pbix) in PowerBI desktop.
@@ -84,7 +90,7 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - Select 'Edit parameters'. It will open a popup box for data source settings.
 - Edit Parameters settings as follows
 - - Hub Storage URL: < Enter the 'Data Lake url' from storage container >
-  - Export Storage URL: < Enter the 'Data Lake url' from storage container >
+  - Export Storage URL: < Enter the 'Data Lake url' from storage container > also append '/ingest' at the end of the url. 
   - Range Start: < e.g., 2010-01-01 12:00 AM>
   - Range End: < e.g., 2050-01-01 12:00 AM>
   - Number of Months: keep blank
