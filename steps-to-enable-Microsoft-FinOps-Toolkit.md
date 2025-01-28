@@ -42,6 +42,7 @@ NOTE: The below steps are as per my personal guidance to get started super quick
 - Click 'Create' the '+' icon to create an export.
 - Select 'Cost and usage (FOCUS)' template. Yes. it must be FOCUS template
 - Enter a prefix . e.g 'daily'. So it will be 'daily-focus-cost'. you can edit it as per your choice for naming.
+- Make sure the FOCUS export version is set to 1.0.0r2 
 - Bring your cursor over the '*-focus-cost' hyperlink. and click the edit pencil.
 - A popup will open for the export settings.
 - Update the frequency as per your choice.
