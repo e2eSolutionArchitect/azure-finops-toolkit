@@ -122,4 +122,5 @@ To follow the on-going instruction please use the templates from "PowerBI-storag
   - Click 'Publish'.
   - Select the 'workspace' where the report should be published.
   - Click 'Publish'.
-  - Click the published link. It should open the web link and show the same report. 
+  - Click the published link. It should open the web link and show the same report.
+  - For the automatic refresh of the report data please refer [here](automatic-update.md)
